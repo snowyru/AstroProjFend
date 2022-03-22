@@ -1,26 +1,25 @@
 import React from "react";
-// import ing from '../images/ing.png'
-import './Aboutpage.css';
+import ing from '../images/ing.png';
+import { Box } from "@mui/material";
 
 
 function AboutScreen(props) {
   return (
     <>
-    
-      <header class="pb-3 mb-4 border-bottom">
-        {" "}
-        <h1 class="h1Header">Project Capture Beauty</h1>
-      </header>
+      <div className="MainContainer" style={{"marginBottom" : "-90px"}}>
+      <Box sx={{"backgroundColor" : '#ced8e2', "width" : "100%"}} style={{"marginBottom" : "-200px" }} className="p-5">
+        <h1 style={{ "font-size": "100px"}} className="h1Header">Project Capture Beauty ✨</h1>
+      </Box>
 
-      <div class="containerFoodup">
-        {/* <img
+      <div className="containerFoodup" >
+        <img
           id="ingredientImage"
-          // src={ing}
+           src={ing}
           alt="ingredientImage"
           style={{ width: "100%" }}
-        /> */}
+        />
 
-        <div class="text-blockBig">
+        <div className="text-blockBig" >
           <h1>We have all the ingredients you need!</h1>
           <h3>
             Built by a photographer for photographers in order to compete with a
@@ -29,17 +28,17 @@ function AboutScreen(props) {
         </div>
       </div>
 
-      <div class="containerFoodupParent">
-        <div class="TextboxAbout">
-          <div class="col-md-12 px-0">
-            <h1 class="display-4 font-italic">Built with AstroLabs</h1>
-            <p class="lead my-3">
+      <div style={{"marginBottom" : "-50px"}} className="containerFoodupParent">
+        <div className="TextboxAbout">
+          <div className="">
+            <h1 className="display-4 font-italic">Built with AstroLabs</h1>
+            <p className="lead my-3">
               With special thanks to Dany. It was a fantastic bootcamp!
             </p>
           </div>
         </div>
       </div>
-    
+      </div>
     </>
   );
 }

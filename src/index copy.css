@@ -14,9 +14,12 @@ code {
 
 /* Start of AboutScreen css */
 .MainContainer{
-  
+  padding-left: 60px;
+  padding-bottom: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
   border: 5px solid white;
-  height: 1300px;
+  height: 1200px;
   }
   
   .h1Header{
@@ -29,10 +32,10 @@ code {
     margin: 0px;
     border: 5px solid white;
     object-fit: center;
-    height: 990px;
+    height: 531px;
     display: block;
     box-shadow: 10px 10px 5px #aaaaaa;
-    padding-bottom: 990px;
+    padding-bottom: 50px;
     
   
   }
@@ -57,7 +60,7 @@ code {
   }
   
   .TextboxAbout {
-  
+  display: flex;
   color:#282c34;
   background-color: white;
   border-radius: 0;
