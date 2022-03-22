@@ -12,5 +12,69 @@ code {
     monospace;
 }
 
+/* Start of profile css-------------------------------------------------------------------------------- */
+/* Profile settings ----------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------------------------*/
+  @import url(https://fonts.googleapis.com/css?family=Roboto:900,300);
 
-
+  .pcontainer {
+    width: 30%;
+    margin: 0px auto 120px;
+    background-color: rgb(230, 241, 255);
+    padding: 0 20px 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+    text-align: center;
+  }
+  .pcontainer:hover .avatar-flip {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+  }
+  .pcontainer:hover .avatar-flip img:first-child {
+    opacity: 0;
+  }
+  .pcontainer:hover .avatar-flip img:last-child {
+    opacity: 1;
+  }
+  .avatar-flip {
+    border-radius: 100px;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    top: -5px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 13px #f0f0f0;
+    -webkit-box-shadow: 0 0 0 13px #c9dfec;
+    -moz-box-shadow: 0 0 0 13px #f0f0f0;
+  }
+  .avatar-flip img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 100px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+  }
+  .avatar-flip img:first-child {
+    z-index: 1;
+  }
+  .avatar-flip img:last-child {
+    z-index: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    opacity: 0;
+  }
+  .bg {
+    background-image: url('https://images.unsplash.com/photo-1527488982891-99714e169214?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1183&q=80');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
