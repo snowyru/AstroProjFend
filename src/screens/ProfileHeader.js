@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 
+import { Button, Grid } from '@mui/material'; 
+
 function ProfileHeader () {
     return(
         <>
@@ -13,6 +15,8 @@ function ProfileHeader () {
         </div>
         <br></br>
         <h2>John Doe</h2>
+        <Grid ><Button className="m-2" variant='contained'>Message</Button>
+            <Button className="m-2" variant='contained'>Follow</Button></Grid>
         <h4>Bio</h4>
         <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
         <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>

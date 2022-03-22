@@ -10,6 +10,7 @@ import AboutScreen from '../src/screens/AboutScreen.js';
 import MainScreen from './screens/MainScreen';
 import Profile from './screens/Profile'
 import { Route } from "react-router-dom";
+import LoginMUI from "./LoginMUI";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <Route path="/" component={MainScreen} exact={true} />
         {/* <LayoutRoute />1 */}
         <LayoutRoute path="/HomeScreen" component={HomeScreen} exact={true} />
-        <Route path="/LoginScreen" component={LoginScreen} exact={true} />
+        {/* <Route path="/LoginScreen" component={LoginScreen} exact={true} /> */}
+        <LayoutRoute path="/LoginScreen" component={LoginMUI} exact={true} />
         <Route path="/RegistrationScreen" component={RegistrationScreen} exact={true} />
         <LayoutRoute path="/UploadScreen" component={UploadScreen} exact={true} />
         <LayoutRoute path="/AboutScreen" component={AboutScreen} exact={true} />
