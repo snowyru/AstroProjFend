@@ -57,7 +57,7 @@ function UploadScreen() {
     
     <div className="Uploadwrapper">
        
-        <img className='Polaroid' src='../Polaroid.png'></img>
+        <img className='Polaroid' src='../Polaroid.png' alt='Upload'></img>
         <div className="dropzone" {...getRootProps()}>
             <input {...getInputProps()}/>
             {isDragActive ? "Drag Active":"Drag and drop your files here"} 
@@ -73,7 +73,7 @@ function UploadScreen() {
             {images.map((image, index) => (
             <div class="polaroidUpload">
                 
-            <img className='selected-images' src={image} key={index}/>
+            <img className='selected-images' src={image} key={index} alt='UserUpload'/>
             <div class="containerUpload">
             <p>Upload to Capture Beauty</p>
             </div>
