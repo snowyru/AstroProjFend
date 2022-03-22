@@ -1,0 +1,98 @@
+/* You need CSS below to run the UploadScreen.js */
+.dropzone {
+ 
+  
+  border: 2px dotted blue;
+  background-color: white ;
+  height: 300px;
+  margin: 16px 32px;
+  text-align: center;
+ 
+}
+
+
+.selected-images {
+height: 200px;
+width: 205px;
+object-fit: cover;
+background-color: white;
+}
+
+
+
+.Polaroid {
+  margin-top: 50px;
+  height: 380px;
+  width: 500px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+.dropzone{
+  height: 200px;
+  width: 400px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  text-align: center;
+  border: 2px dotted grey;
+}
+
+.upload-btn-wrapper{
+  width: flex;  
+  height: 50px;  
+  border: 5px solid white;  
+  display: grid; 
+
+}
+
+.UploadButton{
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;  
+
+}
+
+.UserUploadPhotosFrame {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: flex; 
+  height: auto;   
+  border: 5px solid white;  
+  display: grid; 
+}
+
+.polaroidUpload {
+  position: center;
+  height: 200;
+  width: 200;
+  float: left;
+  padding: 5px;
+  margin-left: 10px;
+  object-fit: contain;
+  border: 5px solid white;  
+  /*width: 80%;*/
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display: inline;
+  
+}
+
+.containerUpload {
+  height: auto;
+  width: auto;
+
+  border: 5px solid white;  
+  text-align: center;
+  padding: 5px 5px;
+}

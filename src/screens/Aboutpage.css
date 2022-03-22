@@ -1,0 +1,57 @@
+
+.MainContainer{
+padding-left: 60px;
+padding-bottom: 60px;
+padding-right: 60px;
+padding-top: 30px;
+border: 5px solid white;
+height: 1200px;
+}
+
+.h1Header{
+  font-family: "Droid serif";
+
+}
+
+.containerFoodup {
+  
+  margin: 0px;
+  border: 5px solid white;
+  object-fit: cover;
+  height: 531px;
+  display: block;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  padding-bottom: 50px;
+  
+
+}
+
+.text-blockBig {
+  position: relative;
+  bottom: 300px;
+  left: 0px;
+  background-color: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family:"Droid serif";
+  font-size: large;
+  
+}
+
+.containerFoodupParent {
+  border: 3px solid #fff;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.TextboxAbout {
+display: flex;
+color:#282c34;
+background-color: white;
+border-radius: 0;
+padding: 10px;
+
+}
+
+
