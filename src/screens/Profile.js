@@ -4,13 +4,7 @@ import * as React from 'react';
 import ProfileHeader from './ProfileHeader'
 import ProfileImages from './ProfileImages';
 
-let props = {firstName: 'John', lastName: 'Smith', bio: 'John Smith'};
-
-function Profile(props) {
-    
-    let firstName ="john";
-    let lastName ="Smith";
-
+function Profile() {
     return(
         <>
             <div style={{"backgroundColor":"aquamarine"}} className="bg">
