@@ -15,7 +15,7 @@ function UploadScreen() {
 
     function handleUpload () {
         console.log("Uploading files...")
-        axios.post(`${process.env.REACT_APP_BACKEND}/product/addProduct`, {images}) // Our backend is on port 3003 
+        axios.post(`${process.env.REACT_APP_BACKEND}/product/addProduct`, {images}) // Our backend is on port 3001 
         .then
         (response =>{ console.log(response.data)
             
