@@ -9,7 +9,7 @@ function ProfileImages(){
         useEffect(() => {
           const fetchData = async () => {
             const { data } = await axios.get(
-              "http://localhost:3000/users/allPictures"
+              "http://localhost:3001/users/allPictures"
             );
             setPictures(data);
           };
